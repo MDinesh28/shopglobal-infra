@@ -1,6 +1,6 @@
 # ShopGlobal Infrastructure as Code
 
-This repository manages ShopGlobal's AWS infrastructure using Terraform. It provisions VPC, EC2, RDS, and compliance-related resources in multiple regions (us-east-1, eu-west-1) to support global e-commerce expansion.
+Terraform IaC for ShopGlobal – This repository manages ShopGlobal's AWS infrastructure using Terraform. It provisions VPC, EC2, RDS, and compliance-related resources across multiple regions (us-east-1, eu-west-1) and environments (dev, prod) to support global e-commerce expansion. The infrastructure is designed using a modular Terraform approach for scalability and ease of management.
 
 ## Prerequisites
 - Terraform >= 1.5.0
