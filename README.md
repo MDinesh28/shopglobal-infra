@@ -2,6 +2,19 @@
 
 Terraform IaC for ShopGlobal – This repository manages ShopGlobal's AWS infrastructure using Terraform. It provisions VPC, EC2, RDS, and compliance-related resources across multiple regions (us-east-1, eu-west-1) and environments (dev, prod) to support global e-commerce expansion. The infrastructure is designed using a modular Terraform approach for scalability and ease of management.
 
+## Features
+
+- **Modular Infrastructure**: Reusable Terraform modules for efficient and scalable cloud infrastructure management.
+- **Multi-Region Deployment**: Supports deployments across multiple AWS regions (`us-east-1`, `eu-west-1`) to enable global infrastructure.
+- **Environment-Specific Configurations**: Separate configurations for **dev** and **prod** environments for isolation and controlled deployments.
+- **AWS Resource Provisioning**: Automates the provisioning of AWS resources like **VPC**, **EC2**, **RDS**, and other compliance-related services.
+- **Backend Initialization**: Includes **scripts** for setting up remote backends for state management.
+- **Compliance-Ready**: Ensures that resources are provisioned with compliance in mind, adhering to industry standards.
+- **Scalable Architecture**: Designed for ease of scaling, with a focus on modularity for future extensions.
+
+
+
+
 ## Prerequisites
 - Terraform >= 1.5.0
 - AWS CLI configured with credentials
