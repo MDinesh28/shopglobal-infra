@@ -19,3 +19,7 @@ This repository manages ShopGlobal's AWS infrastructure using Terraform. It prov
    ```bash
    git clone <repository-url>
    cd shopglobal-infra
+   cd environments/dev         # or environments/prod
+   terraform init
+   terraform plan -var-file=terraform.tfvars
+   terraform apply -var-file=terraform.tfvars
