@@ -1,4 +1,4 @@
-```
+ 
 output "us_east_1_vpc_id" {
   value = module.us_east_1_infra.vpc_id
 }
@@ -22,4 +22,4 @@ output "us_east_1_app_instance_ids" {
 output "eu_west_1_app_instance_ids" {
   value = module.eu_west_1_infra.app_instance_ids
 }
-```
+ 

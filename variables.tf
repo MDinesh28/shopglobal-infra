@@ -1,4 +1,4 @@
-```
+ 
 variable "project_name" {
   description = "Project name for resource tagging"
   type        = string
@@ -13,4 +13,4 @@ variable "cidr_blocks" {
     eu_west_1 = "10.1.0.0/16"
   }
 }
-```
+ 

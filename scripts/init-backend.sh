@@ -1,4 +1,4 @@
-```
+ 
 #!/bin/bash
 # Initialize Terraform backend for S3 state storage
 
@@ -24,4 +24,4 @@ aws dynamodb create-table \
 
 echo "Initializing Terraform..."
 terraform init
-```
+ 

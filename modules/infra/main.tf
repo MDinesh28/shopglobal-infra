@@ -1,4 +1,4 @@
-```
+ 
 # VPC
 resource "aws_vpc" "main" {
   cidr_block           = var.cidr_block
@@ -183,4 +183,4 @@ resource "aws_cloudwatch_log_group" "app_logs" {
     Name = "${var.project_name}-cloudwatch-${var.region}"
   }
 }
-```
+ 

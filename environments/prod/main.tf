@@ -1,4 +1,4 @@
-```
+ 
 terraform {
   required_providers {
     aws = {
@@ -44,4 +44,4 @@ module "eu_west_1_infra" {
   region       = "eu-west-1"
   cidr_block   = var.cidr_blocks["eu_west_1"]
 }
-```
+ 

@@ -16,6 +16,6 @@ This repository manages ShopGlobal's AWS infrastructure using Terraform. It prov
 
 ## Setup
 1. Clone the repository:
-   ```bash
+    bash
    git clone <repository-url>
    cd shopglobal-infra
