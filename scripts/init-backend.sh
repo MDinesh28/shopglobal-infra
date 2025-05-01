@@ -3,7 +3,7 @@
 
 set -e
 
-BUCKET="shopglobal-terraform-state"
+BUCKET="shopglobal-terraform-state01"
 REGION="us-east-1"
 DYNAMODB_TABLE="terraform-locks"
 
